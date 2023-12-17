@@ -1,0 +1,10 @@
+#search-input {
+	color: #fff;
+	font-size: 1vw;
+	border-radius: 5vw;
+	width: 30vw;
+	height: 1.35vw;
+	background-color: rgb(26, 27, 31);
+	outline: none;
+	padding-left: 1vw;
+}

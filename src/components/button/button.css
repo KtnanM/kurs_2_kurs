@@ -1,0 +1,33 @@
+.btn {
+	border-radius: 15px;
+	color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.btn--primary {
+	background-color: rgb(85, 88, 237);
+}
+.btn--primary:hover {
+	background-color: #32b76c;
+	transform: scale(1.05);
+	transition: 500ms;
+}
+.btn--primary:not(:hover) {
+	background-color: rgb(85, 88, 237);
+	transform: scale(1);
+	transition: 500ms;
+}
+
+.btn--secondary {
+	background-color: rgb(80, 82, 84);
+}
+
+.btn--small {
+	font-size: 14px;
+}
+
+.btn--medium {
+	font-size: 18px;
+}

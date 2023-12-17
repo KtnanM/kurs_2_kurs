@@ -1,0 +1,51 @@
+@media (orientation: landscape) {
+	.order-page {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex: 1;
+	}
+
+	.order-page__left {
+		width: 100%;
+	}
+
+	.order-page__right {
+		width: 100%;
+		font-size: 2vw;
+		font-weight: bold;
+		padding-bottom: 2vw;
+	}
+	.order-page__total-price {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.conf {
+		font-size: 1vw;
+		width: 15vw;
+		height: 2vw;
+		background-color: #32b76c;
+		border-radius: 15px;
+		color: white;
+		border: none;
+		cursor: pointer;
+	}
+}
+@media (orientation: portrait) {
+	.order-page__total-price {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.conf {
+		font-size: 5vh;
+		width: 45vh;
+		height: 6vh;
+		background-color: #32b76c;
+		border-radius: 15px;
+		color: white;
+		border: none;
+		cursor: pointer;
+	}
+}

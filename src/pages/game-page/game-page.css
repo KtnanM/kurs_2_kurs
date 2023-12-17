@@ -1,0 +1,44 @@
+@media (orientation: landscape) {
+	.game-page {
+		flex: 1;
+	}
+	.game-page__content {
+		display: flex;
+	}
+
+	.game-page__left {
+		width: 70%;
+	}
+
+	.game-page__right {
+		width: 30%;
+	}
+
+	.game-page__buy-game {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 20px;
+	}
+}
+@media (orientation: portrait) {
+	.game-page {
+		flex: 1;
+	}
+	.game-page__content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.game-page__left {
+		width: 110%;
+	}
+	.game-page__right .game-cover {
+		display: none;
+	}
+
+	.game-page__buy-game {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 20px;
+	}
+}
